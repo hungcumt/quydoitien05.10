@@ -1,0 +1,5 @@
+tienUSD = input("Mời nhập số tiền USD cần đổi: ")
+tienUSD = float(tienUSD)
+tygia = 23110
+tienVND = tienUSD * tygia
+print("Số tiền sau khi quy đổi là: ", float(tienVND))
